@@ -11,7 +11,17 @@ import {
   MenuItemGroup,
   MenuItem,
   Button,
-  Icon
+  Icon,
+  Card,
+  Breadcrumb,
+  BreadcrumbItem,
+  Table,
+  TableColumn,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  MessageBox
 } from 'element-ui'
 
 Vue.use(Container)
@@ -26,3 +36,14 @@ Vue.use(MenuItemGroup)
 Vue.use(MenuItem)
 Vue.use(Button)
 Vue.use(Icon)
+Vue.use(Card)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
